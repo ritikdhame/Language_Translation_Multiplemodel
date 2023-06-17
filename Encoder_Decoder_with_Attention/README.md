@@ -2,6 +2,7 @@
 
 # Objective
 This project aims to build a hindi to english language traslation model based on Encoder-Decoder Architecture with attention 
+![image](https://github.com/ritikdhame/Language_Translation_Multiplemodel/assets/7029092/8c6c5684-b0fc-4f27-9c8f-ebfb78ab0cf5)
 
 # About the data
 The code requires the following dataset from : https://www.kaggle.com/datasets/aiswaryaramachandran/hindienglish-corpora
@@ -14,6 +15,7 @@ The code consists of 3 main parts:
 - Model building and training: Post tokenizing using tensorflow to build encoder with GRU model followed by Decoder with GRU model and a atention layer with softmax activation.
 - Training and prediction : using rmsprop(adapts the learning rate during training to speed up convergence and handle different gradients effectively) as optimizer and  Gradienta as loss function Accuracy as model perfomance metric, follwed by fitting the model, saving wieghts and making predictions.
 
+![image](https://github.com/ritikdhame/Language_Translation_Multiplemodel/assets/7029092/1748b8ea-b71b-4e7b-b31d-ef128a774e83)
 
 #  Requirements
 To run the code, you need to install the following libraries:
